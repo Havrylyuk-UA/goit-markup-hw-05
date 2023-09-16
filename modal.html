@@ -65,33 +65,34 @@
         <form class="modal-form d-flex-col">
           <legend>Leave your contacts and we will call you back</legend>
 
-          <p>Name</p>
-          <label class="modal-input" for="name">
+          <p class="modal-text">Name</p>
+          <label class="modal-input d-flex" for="name">
             <svg class="modal-inp-ico" width="18" height="18">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
-            <inpu t type="text" name="name" />
+            <input type="text" name="name" />
           </label>
 
-          <label for="phone">
-            <p>Phone</p>
+          <p class="modal-text">Phone</p>
+          <label class="modal-input" for="phone">
             <svg class="modal-inp-ico" width="18" height="18">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
             <input type="tel" name="phone" />
           </label>
 
-          <label for="email">
-            <p>Email</p>
+          <p class="modal-text">Email</p>
+          <label class="modal-input" for="email">
             <svg class="modal-inp-ico" width="18" height="18">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
             <input type="email" name="email" />
           </label>
 
-          <label for="">
+          <p class="modal-text">Comment</p>
+          <label for="modal-feedback">
             <textarea
-              name=""
+              name="modal-feedback"
               id=""
               cols="30"
               rows="10"
@@ -100,10 +101,12 @@
             </textarea>
           </label>
 
-          <label for="">
-            <input type="checkbox" />
-            I accept the terms and conditions of the
-            <a href="#" target="_blank">Privacy Policy</a>
+          <label for="privacy_policy">
+            <input type="checkbox" name="privacy_policy" />
+            <p class="modal-text">
+              I accept the terms and conditions of the
+              <a href="#" target="_blank">Privacy Policy</a>
+            </p>
           </label>
 
           <button type="submit">Send</button>
