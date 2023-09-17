@@ -234,8 +234,8 @@ legend {
 .modal-back {
     position: absolute;
     width: 100vw;
-    z-index: 998;
     height: 100vh;
+    z-index: 998;
     background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     margin: 0 auto;
 }
