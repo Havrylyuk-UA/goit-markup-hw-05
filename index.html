@@ -61,7 +61,9 @@
       <section class="section section-order d-flex">
         <div class="container d-flex-col">
           <h1 class="order-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="order-btn">Order Service</button>
+          <button type="button" class="order-btn" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -604,15 +606,17 @@
       </div>
     </footer>
 
-    <div class="modal d-flex">
+    <!-- Modal section -->
+
+    <div class="modal d-flex is-hidden" data-modal>
+      <button type="button" class="modal-close-btn" data-modal-close>
+        <svg class="modal-close-btn-ico" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
       <div class="modal-window d-flex-col">
-        <button type="button" class="modal-close-btn">
-          <svg class="modal-close-btn-ico" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
         <form class="modal-form d-flex-col">
-          <legend>Leave your contacts and we will call you back</legend>
+          <p class="legend">Leave your contacts and we will call you back</p>
 
           <p class="modal-text">Name</p>
           <label class="modal-input d-flex" for="name">
@@ -637,19 +641,10 @@
             </svg>
             <input type="email" name="email" />
           </label>
-
           <p class="modal-text">Comment</p>
           <label for="modal-feedback">
-            <textarea
-              name="modal-feedback"
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="Text input"
-            >
-            </textarea>
+            <textarea name="modal-feedback" placeholder="Text input"></textarea>
           </label>
-
           <label for="privacy_policy" class="label-privacy d-flex">
             <input type="checkbox" name="privacy_policy" />
             <p class="modal-text">
@@ -665,4 +660,6 @@
       </div>
     </div>
   </body>
+
+  <script src="./js/modal.js"></script>
 </html>
