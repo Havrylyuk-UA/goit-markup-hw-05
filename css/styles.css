@@ -541,7 +541,9 @@ img {
 
 /* .f-subscribe { } */
 
-/* .f-form-subscribe { } */
+.f-form-subscribe {
+    gap: 24px;
+ }
 
 /* .f-sub-label{} */
 
@@ -557,18 +559,24 @@ img {
  }
 
  .f-sub-inp{
-    margin-right: 24px;
-    width: 250px;
+    width: 264px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid var(--WHITE, #FFF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background: var(--darkgrey);
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+    /* background: var(--darkgrey); */
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: #ffffff;
  }
 
  .f-sub-inp::placeholder {
-    color: var(--white, #FFF);
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-style: normal;
@@ -591,6 +599,11 @@ img {
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 165px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
 .f-sub-btn:hover {
@@ -600,18 +613,6 @@ img {
 .f-sub-btn:focus {
     background: var(--shadowblue);
 }
-
-.f-btn-text {
-    color: var(--white);
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5; 
-    letter-spacing: 0.04em;
-    
- }
 
 .f-btn-ico {
     fill: #fff;
