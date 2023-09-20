@@ -716,13 +716,13 @@ textarea::placeholder {
 }
 
 .modal-close-btn:hover {
+    background-color: #404bbf;
     border: none;
-    background-color: var(--shadowblue);
 }
 
 .modal-close-btn:focus {
+    background-color: #404bbf;
     border: none;
-    background-color: var(--shadowblue);
 }
 
 .modal-close-btn-ico {
