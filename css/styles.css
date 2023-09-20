@@ -89,7 +89,7 @@ img {
     padding: 120px 0;
 }
 
-/* ! The header section */
+/* The header section */
 
 .header {
     flex-shrink: 0;
@@ -192,7 +192,7 @@ img {
 
 /* .main {} */
 
-/* ! The first section */
+/* The first section */
 
 .section-order {
     background: var(--darkgrey);
@@ -236,7 +236,7 @@ img {
     background: var(--shadowblue);
 }
 
-/* ! The second section */
+/* The second section */
 
 .visually-hidden {
     position: absolute;
@@ -291,7 +291,7 @@ img {
     align-items: center;
 }
 
-/* ! The third section */
+/* The third section */
 
 .section-team {
     background: var(--shadowwhite);
@@ -373,7 +373,7 @@ img {
     fill: #f4f4fd;
 }
 
-/* ! The fourth section */
+/* The fourth section */
 
 /* .section-portfolio {} */
 
@@ -446,7 +446,7 @@ img {
     transform: translateY(0%);
 }
 
-/* ! The footer section */
+/* The footer section */
 
 .footer {
     background: var(--darkgrey);
@@ -618,7 +618,7 @@ img {
     margin-left: 16px;
  }
 
-/* ! MODAL */
+/* MODAL */
 
 .is-hidden {
     opacity: 0;
