@@ -827,14 +827,15 @@ textarea::placeholder {
 }
 
 .modal-policy-ico {
-    fill: none;
     width: 16px;
     height: 16px;
+    opacity: 0;
+    background-color: #404BBF;
+    fill: #F4F4FD;
 }
 
 .privacy-checkbox:checked + .label-privacy .modal-check .modal-policy-ico {
-    background-color: #404BBF;
-    fill: #F4F4FD;;
+    opacity: 1;
 }
 
 .modal-send-btn {
