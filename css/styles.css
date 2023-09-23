@@ -673,6 +673,8 @@ textarea::placeholder {
 .modal {
     position: fixed;
     inset: 0;
+    width: 100%;
+    height: 100%;
     padding: 20px;
     background: rgba(46, 47, 66, 0.40);
     visibility: visible;
@@ -681,16 +683,16 @@ textarea::placeholder {
 
 .modal-window {
     position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 408px;
-        min-height: 584px;
-        padding: 72px 24px 24px 24px;
-        border-radius: 4px;
-        background-color: #fcfcfc;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+    border-radius: 4px;
+    background-color: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px1px rgba(0, 0, 0, 0.2);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn {
@@ -724,11 +726,11 @@ textarea::placeholder {
 }
 
 .modal-close-btn:hover .modal-close-btn-ico {
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .modal-close-btn:focus .modal-close-btn-ico {
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .modal-field {
