@@ -832,7 +832,7 @@ textarea::placeholder {
     height: 16px;
 }
 
-.privacy-checkbox:checked+.label-privacy .modal-check > .modal-policy-ico {
+.privacy-checkbox:checked + .label-privacy .modal-check .modal-policy-ico {
     background-color: #404BBF;
     fill: #F4F4FD;;
 }
