@@ -827,15 +827,17 @@ textarea::placeholder {
 }
 
 .modal-policy-ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 16px;
     height: 16px;
-    opacity: 0;
-    background-color: #404BBF;
-    fill: #F4F4FD;
+
 }
 
 .privacy-checkbox:checked + .label-privacy .modal-check .modal-policy-ico {
-    opacity: 1;
+        background-color: #404BBF;
+        fill: #F4F4FD;
 }
 
 .modal-send-btn {
